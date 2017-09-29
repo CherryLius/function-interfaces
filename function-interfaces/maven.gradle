@@ -1,7 +1,7 @@
 apply plugin: 'maven'
 
 def lib_group = 'cherry.java'
-def lib_version = '1.0.0'
+def lib_version = '1.0.1'
 def lib_artifact = 'function-interfaces'
 def lib_description = 'java function interface for Android.'
 

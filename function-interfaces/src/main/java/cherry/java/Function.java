@@ -1,13 +1,11 @@
 package cherry.java;
 
-import android.support.annotation.NonNull;
-
 public interface Function<T, R> {
     /**
-     * Apply some calculation to the input value and return some other value.
+     * Applies this function to the given argument.
      *
-     * @param t the input value
-     * @return the output value
+     * @param t the function argument
+     * @return the function result
      */
-    R apply(@NonNull T t);
+    R apply(T t);
 }
