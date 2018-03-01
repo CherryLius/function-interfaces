@@ -1,4 +1,4 @@
-package java.ext.function;
+package ext.java8.function;
 
 /**
  * Created by ROOT on 2017/8/15.

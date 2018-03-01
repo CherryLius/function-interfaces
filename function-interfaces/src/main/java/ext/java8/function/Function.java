@@ -1,4 +1,4 @@
-package java.ext.function;
+package ext.java8.function;
 
 public interface Function<T, R> {
     /**

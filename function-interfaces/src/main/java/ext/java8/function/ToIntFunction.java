@@ -1,15 +1,15 @@
-package java.ext.function;
+package ext.java8.function;
 
 /**
  * Created by ROOT on 2017/9/29.
  */
 
-public interface ToDoubleFunction<T> {
+public interface ToIntFunction<T> {
     /**
      * Applies this function to the given argument.
      *
      * @param value the function argument
      * @return the function result
      */
-    double applyAsDouble(T value);
+    int applyAsInt(T value);
 }
