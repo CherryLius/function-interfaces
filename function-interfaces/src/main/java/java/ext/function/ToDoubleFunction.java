@@ -1,15 +1,15 @@
-package cherry.java;
+package java.ext.function;
 
 /**
  * Created by ROOT on 2017/9/29.
  */
 
-public interface IntFunction<R> {
+public interface ToDoubleFunction<T> {
     /**
      * Applies this function to the given argument.
      *
      * @param value the function argument
      * @return the function result
      */
-    R apply(int value);
+    double applyAsDouble(T value);
 }

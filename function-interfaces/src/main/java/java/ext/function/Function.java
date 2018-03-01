@@ -1,4 +1,4 @@
-package cherry.java;
+package java.ext.function;
 
 public interface Function<T, R> {
     /**

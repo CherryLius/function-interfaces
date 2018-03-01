@@ -1,4 +1,4 @@
-package cherry.java;
+package java.ext.function;
 
 /**
  * Created by ROOT on 2017/8/30.
