@@ -6,8 +6,8 @@ def git = 'https://github.com/LeonardoLaus'
 def desc = 'java8 function interface'
 
 def versions = [:]
-versions.group = 'leon.java.function'
-versions.version = '1.1.0'
+versions.group = 'jdk8.function'
+versions.version = '2.0.0'
 versions.desc = desc
 versions.siteUrl = "${git}/function-interfaces"
 versions.gitUrl = "${versions.siteUrl}.git"
@@ -21,8 +21,8 @@ license.url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
 config.license = license
 
 def developer = [:]
-developer.id = 'leon'
-developer.name = 'leon'
+developer.id = 'etlevent'
+developer.name = 'etlevent'
 developer.email = '767041809@qq.com'
 config.developer = developer
 
@@ -57,7 +57,7 @@ def addRepos(RepositoryHandler handler) {
     handler.google()
     handler.jcenter()
     handler.mavenCentral()
-    handler.maven { url config.maven.nexusPublicUrl }
+//    handler.maven { url config.maven.nexusPublicUrl }
     handler.maven { url config.maven.localRepos }
 }
 
