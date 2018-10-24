@@ -7,7 +7,7 @@ def desc = 'java8 function interface'
 
 def versions = [:]
 versions.group = 'leon.java.function'
-versions.version = '1.1.0'
+versions.version = '1.1.1'
 versions.desc = desc
 versions.siteUrl = "${git}/function-interfaces"
 versions.gitUrl = "${versions.siteUrl}.git"
